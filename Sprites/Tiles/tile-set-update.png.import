@@ -2,25 +2,25 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/tile-set.png-966c36e91d3b7ccc86dc528d89a2700e.stex"
+path="res://.import/tile-set-update.png-e57d86a913517c39100384e078b21ae4.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Tiles/Tile-set/tile-set.png"
-dest_files=[ "res://.import/tile-set.png-966c36e91d3b7ccc86dc528d89a2700e.stex" ]
+source_file="res://Sprites/Tiles/tile-set-update.png"
+dest_files=[ "res://.import/tile-set-update.png-e57d86a913517c39100384e078b21ae4.stex" ]
 
 [params]
 
-compress/mode=3
+compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=false
+flags/filter=true
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
