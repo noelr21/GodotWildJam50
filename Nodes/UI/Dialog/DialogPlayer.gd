@@ -1,7 +1,8 @@
 extends CanvasLayer
 
 export (String, FILE, "*json") var scene_text_file
-export (int, 1, 200) var characters_per_second:int = 1
+export(int, EXP, 1, 200, 2) var characters_per_second
+
 
 var scene_text = {}
 var selected_text = []
