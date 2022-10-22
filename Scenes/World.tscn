@@ -18,7 +18,7 @@ shape = SubResource( 1 )
 
 [node name="DialogPlayer" parent="." instance=ExtResource( 2 )]
 scene_text_file = "res://Dialogue_Files/test_dialog.json"
-characters_per_second = 53.0
+characters_per_second = 25.0
 
 [editable path="Spawn"]
 [editable path="Player"]

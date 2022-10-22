@@ -19,6 +19,7 @@ onready var timer = $Timer
 func _ready():
 	background.visible = false
 	scene_text = load_scene_text()
+	wait_timer /= characters_per_second #calculate characters per second
 	self.offset = Vector2(0, ProjectSettings.get_setting("display/window/size/height") - background.texture.get_height())
 	DialogueSignalBus.connect("display_dialog", self, "on_display_dialog")
 
@@ -34,7 +35,6 @@ func show_text():
 	printing_line = true
 	text_label.text = ""
 	print_next_char()
-	wait_timer /= characters_per_second #calculate characters per second
 	timer.start(wait_timer)
 
 func next_line():
